@@ -1,4 +1,4 @@
-# CyberGhana Academy
+
 
 Prototype website and content for **CyberGhana**, a cybersecurity education project for Ghana. It covers mobile money (MoMo) fraud, the Data Protection Act and the Cyber Security Authority framework, plus ethical hacking tracks.
 
