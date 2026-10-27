@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CyberGhana Academy: beginner-friendly cybersecurity awareness and learning resources.">
+  <title>CyberGhana Academy | Learn. Secure. Protect.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CyberGhana Academy home">
+      <span class="brand-mark">CG</span>
+      <span>CyberGhana <strong>Academy</strong></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="siteNav">
+      <a href="#home">Home</a>
+      <a href="#learn">Learning</a>
+      <a href="#safety">Safety Tips</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> CYBERSECURITY EDUCATION FOR EVERYONE</p>
+        <h1>Build skills.<br><span>Protect your digital world.</span></h1>
+        <p class="hero-text">Learn cybersecurity fundamentals, recognize online threats, and practice safer digital habits — one step at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#learn">Explore learning topics <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="#safety">Stay safe online</a>
+        </div>
+        <p class="hero-note">Beginner-friendly • Responsible learning • Practical awareness</p>
+      </div>
+      <div class="hero-panel" aria-label="Cybersecurity learning illustration">
+        <div class="terminal-top"><span></span><span></span><span></span><small>cyberghana://learn</small></div>
+        <div class="shield">⌑</div>
+        <div class="terminal-line"><span>status</span><b>learning_mode_active</b></div>
+        <div class="terminal-line"><span>focus</span><b>defend_and_protect</b></div>
+        <div class="terminal-line"><span>ethics</span><b class="green">always_required</b></div>
+        <div class="progress-label"><span>Knowledge grows daily</span><span>01 / ∞</span></div>
+        <div class="progress-track"><span></span></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Academy principles">
+      <div><strong>01</strong><span>Learn the basics</span></div>
+      <div><strong>02</strong><span>Think like a defender</span></div>
+      <div><strong>03</strong><span>Practice responsibly</span></div>
+    </section>
+
+    <section class="section" id="learn">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR LEARNING PATH</p>
+        <h2>Explore core topics</h2>
+        <p>Start with the fundamentals and build your understanding over time.</p>
+      </div>
+      <div class="topic-grid">
+        <article class="topic-card">
+          <div class="topic-icon">⌘</div>
+          <p class="topic-level">FOUNDATIONS</p>
+          <h3>Network Security</h3>
+          <p>Learn about IP addresses, routers, firewalls, access controls, and how devices communicate safely.</p>
+          <a href="#safety">Explore basics <span>→</span></a>
+        </article>
+        <article class="topic-card">
+          <div class="topic-icon">◎</div>
+          <p class="topic-level">THREAT AWARENESS</p>
+          <h3>Phishing & Scams</h3>
+          <p>Recognize suspicious messages, fake websites, social engineering, and common online fraud patterns.</p>
+          <a href="#safety">Explore safety tips <span>→</span></a>
+        </article>
+        <article class="topic-card">
+          <div class="topic-icon">▣</div>
+          <p class="topic-level">DIGITAL HYGIENE</p>
+          <h3>Password Security</h3>
+          <p>Understand strong passphrases, password managers, multi-factor authentication, and account recovery.</p>
+          <a href="#safety">Protect accounts <span>→</span></a>
+        </article>
+        <article class="topic-card">
+          <div class="topic-icon">⌁</div>
+          <p class="topic-level">RESPONSIBLE PRACTICE</p>
+          <h3>Ethical Hacking</h3>
+          <p>Discover what authorized security testing means, why permission matters, and how to report issues safely.</p>
+          <a href="#about">Our principles <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="safety-section" id="safety">
+      <div class="safety-intro">
+        <p class="eyebrow">SECURITY CHECKLIST</p>
+        <h2>Small habits.<br><span>Stronger protection.</span></h2>
+        <p>Use this quick checklist to review a few important online safety habits. Your selections stay in this page only.</p>
+        <div class="check-progress" aria-live="polite">
+          <div class="check-progress-label"><span id="progressText">0 of 5 completed</span><span id="progressPercent">0%</span></div>
+          <div class="progress-track"><span id="checkProgressBar"></span></div>
+        </div>
+      </div>
+      <div class="checklist" id="safetyChecklist">
+        <label class="check-item"><input type="checkbox"><span class="fake-check">✓</span><span><strong>Use unique passwords</strong><small>Do not reuse one password across important accounts.</small></span></label>
+        <label class="check-item"><input type="checkbox"><span class="fake-check">✓</span><span><strong>Enable multi-factor authentication</strong><small>Add another verification step where available.</small></span></label>
+        <label class="check-item"><input type="checkbox"><span class="fake-check">✓</span><span><strong>Verify unexpected messages</strong><small>Contact the organization through an official channel.</small></span></label>
+        <label class="check-item"><input type="checkbox"><span class="fake-check">✓</span><span><strong>Never share one-time codes</strong><small>Legitimate support staff should not ask for your OTP.</small></span></label>
+        <label class="check-item"><input type="checkbox"><span class="fake-check">✓</span><span><strong>Keep devices and apps updated</strong><small>Updates often fix known security weaknesses.</small></span></label>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div>
+        <p class="eyebrow">ABOUT THE PROJECT</p>
+        <h2>Learn to defend.<br><span>Use knowledge responsibly.</span></h2>
+      </div>
+      <div class="about-copy">
+        <p>CyberGhana Academy is an educational web project created to make cybersecurity awareness easier for beginners in Ghana and beyond.</p>
+        <p>This website is a learning resource, not a certification program or a substitute for professional security advice. Any hands-on security testing must be limited to systems you own or have explicit permission to assess.</p>
+        <a class="text-link" href="#home">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">CG</span><span>CyberGhana <strong>Academy</strong></span></a>
+    <p>Learn. Secure. Protect.</p>
+    <small>Educational project • Practice ethically and legally</small>
+  </footer>
+</body>
+</html>
